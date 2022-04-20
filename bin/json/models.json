@@ -1,0 +1,78 @@
+[
+    {
+        "id": 1,
+        "type": "bert",
+        "name": "BERT Base",
+        "short_description": "lorem ipsum dolor sit amet",
+        "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet erat ut augue placerat accumsan id fringilla neque. Nunc eu est interdum, lobortis odio sit amet, eleifend ex. Fusce vehicula efficitur nulla, sed interdum nisi luctus quis. Vivamus a diam ut sapien volutpat ultricies at a libero. Ut suscipit, sapien vitae mattis facilisis, tortor felis dignissim arcu, at aliquet velit nisi a orci. Sed eros sapien, auctor vitae lorem in, venenatis semper tortor. Aliquam vel velit leo. Nunc magna purus, malesuada tempor gravida a, ultrices nec massa.",
+        "github": "https://github.com/ABCD-EDU/hate-speech-model",
+        "citation": {
+            "title": "",
+            "authors": [
+                "Andres, Austin",
+                "Arevalo, Lance Gabrielle",
+                "Bayquen, Christian Gabriel",
+                "Capistrano, Bryan",
+                "Cayton, Arian Carl",
+                "Fernandez, Jaime",
+                "Salenga, Neil Fernan M"
+            ],
+            "journal": "",
+            "year": 2022
+        },
+        "tags": [
+            "bert",
+            "base"
+        ],
+        "tasks": [
+            {
+                "id": 1,
+                "name": "Main Model",
+                "description": "lorem ipsum dolor sit amet"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "type": "svm",
+        "name": "Support Vector Machine",
+        "short_description": "lorem ipsum dolor sit amet",
+        "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet erat ut augue placerat accumsan id fringilla neque. Nunc eu est interdum, lobortis odio sit amet, eleifend ex. Fusce vehicula efficitur nulla, sed interdum nisi luctus quis. Vivamus a diam ut sapien volutpat ultricies at a libero. Ut suscipit, sapien vitae mattis facilisis, tortor felis dignissim arcu, at aliquet velit nisi a orci. Sed eros sapien, auctor vitae lorem in, venenatis semper tortor. Aliquam vel velit leo. Nunc magna purus, malesuada tempor gravida a, ultrices nec massa.",
+        "github": "https://github.com/ABCD-EDU/hate-speech-SVM-model",
+        "citation": {
+            "title": "",
+            "authors": [
+                "Andres, Austin",
+                "Arevalo, Lance Gabrielle",
+                "Bayquen, Christian Gabriel",
+                "Capistrano, Bryan",
+                "Cayton, Arian Carl",
+                "Fernandez, Jaime",
+                "Salenga, Neil Fernan M"
+            ],
+            "journal": "",
+            "year": 2022
+        },
+        "tags": [
+            "svm",
+            "support vector machine"
+        ],
+        "tasks": [
+            {
+                "id": 1,
+                "name": "Subtask 1",
+                "description": "lorem ipsum dolor sit amet"
+            },
+            {
+                "id": 2,
+                "name": "Subtask 2",
+                "description": "lorem ipsum dolor sit amet"
+            },
+            {
+                "id": 3,
+                "name": "Subtask 3",
+                "description": "lorem ipsum dolor sit amet"
+            }
+        ]
+    }
+]
