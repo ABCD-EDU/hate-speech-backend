@@ -11,7 +11,5 @@ async def get_results(message: str, task_ids: Optional[List[int]] = Query(None))
     if task_ids is None:
         task_ids = [1, 2, 3]
         
-    return {
-            "response": svm.get_result(message, task_ids)
-        }
+    return svm.get_result(message, task_ids)
     
