@@ -10,8 +10,8 @@ GLOBAL_CONFIG = {
 }
 
 TASKS_LABELS = {
-    "LABELS_1": ['HATE', 'NOT', 'OFFENSIVE'],
-    "LABELS_2": ['PROFANITY'],
+    "LABELS_1": ['Hate', 'Normal', 'Offensive'],
+    "LABELS_2": ['Profanity'],
     "LABELS_3": ['Race', 'Religion', 'Gender', 'Other', 'None']
 }
 

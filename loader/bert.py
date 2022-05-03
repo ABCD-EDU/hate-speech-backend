@@ -42,7 +42,7 @@ tokenizer = AutoTokenizer.from_pretrained(config["BERT_MODEL_NAME"])
 
 
 def encode_text(text: TextInput) -> dict:
-    
+
     encoding = tokenizer.encode_plus(
         text.lower(),
         add_special_tokens=True,
@@ -79,7 +79,7 @@ def get_result(text: TextInput) -> ModelResponse:
             all_task_classes_score.append(TaskClassesScore(
                 task_id=i+1, scores=task_classes_score))
 
-        return ModelResponse(response=all_task_classes_score)
+        return all_task_classes_score
 
 
 print('BERT MODEL READY')
